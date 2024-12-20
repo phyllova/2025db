@@ -1,0 +1,75 @@
+.logo {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1877f2;
+  font-weight: 700;
+}
+
+.fb_form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1.5rem 1rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.fb_form input {
+  outline: none;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.fb_form input:focus {
+  border: 1.8px solid #1877f2;
+}
+
+.fb_form .login {
+  outline: none;
+  border: none;
+  background: #1877f2;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.fb_form .login:hover {
+  background: #0f71f1;
+  cursor: pointer;
+}
+
+.fb_form a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-top: 0.8rem;
+  color: #1877f2;
+}
+
+.fb_form hr {
+  background: #f7f7f7;
+  margin: 0.05rem;
+  border: #03ad06;
+}
+
+.fb_form .create-account {
+  outline: none;
+  border: none;
+  background: #06b909;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.fb_form .create-account:hover {
+  background: #03ad06;
+  cursor: pointer;
+}
